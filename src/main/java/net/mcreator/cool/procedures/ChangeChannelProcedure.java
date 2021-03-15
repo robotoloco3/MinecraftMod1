@@ -5,7 +5,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.state.IProperty;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.cool.block.Tvch2Block;
+import net.mcreator.cool.block.TvBlock;
 import net.mcreator.cool.CoolModElements;
 
 import java.util.Map;
@@ -43,7 +43,7 @@ public class ChangeChannelProcedure extends CoolModElements.ModElement {
 		IWorld world = (IWorld) dependencies.get("world");
 		{
 			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-			BlockState _bs = Tvch2Block.block.getDefaultState();
+			BlockState _bs = TvBlock.block.getDefaultState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				IProperty _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());

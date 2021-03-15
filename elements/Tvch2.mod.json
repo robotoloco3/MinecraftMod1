@@ -52,7 +52,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Tv"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "ChangeChannel3"
+    },
     "onRedstoneOff": {
       "name": "ChangeChannel2"
     },

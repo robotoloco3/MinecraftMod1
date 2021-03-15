@@ -288,6 +288,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "robtoloco_3_world"
+    },
+    {
+      "name": "Tvch3",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tvch_3"
+    },
+    {
+      "name": "ChangeChannel3",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_channel_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -310,10 +348,11 @@
   ],
   "language_map": {
     "en_us": {
-      "item.cool.pro_bod_boots": "Pro Bod Boots",
       "entity.cool.business_men": "Business Men",
+      "item.cool.pro_bod_boots": "Pro Bod Boots",
       "item.cool.business_men_spawn_egg": "Business Men Spawn Egg",
       "block.cool.tvch_2": "Tvch 2",
+      "block.cool.tvch_3": "Tvch 2",
       "item.cool.nub_food": "Nub Food",
       "block.cool.nub": "Nub",
       "block.cool.ryan_ore_compresed": "Ryan Ore Compresed",

@@ -5,36 +5,36 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.state.IProperty;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.cool.block.Tvch2Block;
+import net.mcreator.cool.block.Tvch3Block;
 import net.mcreator.cool.CoolModElements;
 
 import java.util.Map;
 
 @CoolModElements.ModElement.Tag
-public class ChangeChannel2Procedure extends CoolModElements.ModElement {
-	public ChangeChannel2Procedure(CoolModElements instance) {
-		super(instance, 17);
+public class ChangeChannel3Procedure extends CoolModElements.ModElement {
+	public ChangeChannel3Procedure(CoolModElements instance) {
+		super(instance, 23);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure ChangeChannel2!");
+				System.err.println("Failed to load dependency x for procedure ChangeChannel3!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure ChangeChannel2!");
+				System.err.println("Failed to load dependency y for procedure ChangeChannel3!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure ChangeChannel2!");
+				System.err.println("Failed to load dependency z for procedure ChangeChannel3!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure ChangeChannel2!");
+				System.err.println("Failed to load dependency world for procedure ChangeChannel3!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
@@ -43,7 +43,7 @@ public class ChangeChannel2Procedure extends CoolModElements.ModElement {
 		IWorld world = (IWorld) dependencies.get("world");
 		{
 			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
-			BlockState _bs = Tvch2Block.block.getDefaultState();
+			BlockState _bs = Tvch3Block.block.getDefaultState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<IProperty<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				IProperty _property = _bs.getBlock().getStateContainer().getProperty(entry.getKey().getName());

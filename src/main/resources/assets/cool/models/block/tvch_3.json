@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cool:blocks/tvtop",
+    "up": "cool:blocks/tvtop",
+    "north": "cool:blocks/tvch3",
+    "east": "cool:blocks/tvside",
+    "south": "cool:blocks/tvback",
+    "west": "cool:blocks/tvside",
+    "particle": "cool:blocks/tvtop"
+  }
+}

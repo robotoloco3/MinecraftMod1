@@ -5,7 +5,7 @@
     "texture": "tvtop",
     "textureTop": "tvtop",
     "textureLeft": "tvside",
-    "textureFront": "tv",
+    "textureFront": "tvch3",
     "textureRight": "tvside",
     "textureBack": "tvback",
     "renderType": 10,
@@ -24,14 +24,14 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Tv",
+    "name": "Tvch 2",
     "specialInfo": [],
     "hardness": 1.2,
     "resistance": 11.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ProStuff"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -52,7 +52,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Tv"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -93,7 +93,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "ChangeChannel2"
+      "name": "ChangeChannel"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

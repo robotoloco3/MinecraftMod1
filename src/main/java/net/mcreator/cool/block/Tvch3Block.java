@@ -26,8 +26,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.cool.procedures.ChangeChannel3Procedure;
-import net.mcreator.cool.procedures.ChangeChannel2Procedure;
+import net.mcreator.cool.procedures.ChangeChannelProcedure;
 import net.mcreator.cool.CoolModElements;
 
 import java.util.Map;
@@ -36,11 +35,11 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @CoolModElements.ModElement.Tag
-public class Tvch2Block extends CoolModElements.ModElement {
-	@ObjectHolder("cool:tvch_2")
+public class Tvch3Block extends CoolModElements.ModElement {
+	@ObjectHolder("cool:tvch_3")
 	public static final Block block = null;
-	public Tvch2Block(CoolModElements instance) {
-		super(instance, 17);
+	public Tvch3Block(CoolModElements instance) {
+		super(instance, 22);
 	}
 
 	@Override
@@ -57,7 +56,7 @@ public class Tvch2Block extends CoolModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1.2f, 11f).lightValue(5).notSolid());
-			setRegistryName("tvch_2");
+			setRegistryName("tvch_3");
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -90,25 +89,6 @@ public class Tvch2Block extends CoolModElements.ModElement {
 		}
 
 		@Override
-		public void neighborChanged(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
-			super.neighborChanged(state, world, pos, neighborBlock, fromPos, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
-			} else {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					ChangeChannel2Procedure.executeProcedure($_dependencies);
-				}
-			}
-		}
-
-		@Override
 		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
 				BlockRayTraceResult hit) {
 			super.onBlockActivated(state, world, pos, entity, hand, hit);
@@ -122,7 +102,7 @@ public class Tvch2Block extends CoolModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ChangeChannel3Procedure.executeProcedure($_dependencies);
+				ChangeChannelProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}
