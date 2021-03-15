@@ -1,0 +1,39 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "gun-png-10",
+    "customModelName": "Normal",
+    "name": "Gun",
+    "specialInfo": [
+      "boom"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ProStuff"
+    },
+    "stackSize": 3,
+    "ammoItem": {
+      "value": "CUSTOM:Bullet"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:gun"
+    },
+    "hasGlow": false,
+    "animation": "drink",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.5,
+    "bulletPower": 1.0,
+    "bulletDamage": 9.5,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Bullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cool:blocks/nubbottem",
+    "up": "cool:blocks/nubtop",
+    "north": "cool:blocks/nub",
+    "east": "cool:blocks/nubside",
+    "south": "cool:blocks/nubback",
+    "west": "cool:blocks/nubside",
+    "particle": "cool:blocks/nubbottem"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cool:block/robtoloco_3_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "cool:block/robtoloco_3_world_portal_ns"
+    }
+  }
+}

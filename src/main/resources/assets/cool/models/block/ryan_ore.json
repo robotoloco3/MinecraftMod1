@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cool:blocks/ryanore",
+    "up": "cool:blocks/ryanore",
+    "north": "cool:blocks/ryanore",
+    "east": "cool:blocks/ryanore",
+    "south": "cool:blocks/ryanore",
+    "west": "cool:blocks/ryanore",
+    "particle": "cool:blocks/nubsmile"
+  }
+}

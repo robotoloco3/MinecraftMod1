@@ -1,0 +1,75 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "id": 183,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #183",
+          "x": 253,
+          "y": 51
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "id": 182,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #182",
+          "x": 156,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "give to nub",
+          "onClick": {
+            "name": "Givetonub"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "give to nub",
+          "x": 40,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This block is located at <x> <y> and <z>.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "This block is located at <x> <y> and <z>.",
+          "x": 113,
+          "y": 11
+        }
+      }
+    ]
+  }
+}

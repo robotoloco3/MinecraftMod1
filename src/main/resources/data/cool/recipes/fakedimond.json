@@ -1,0 +1,9 @@
+{
+  "group": "cool",
+  "type": "minecraft:stonecutting",
+  "count": 64,
+  "ingredient": {
+    "item": "cool:nub"
+  },
+  "result": "minecraft:diamond_ore"
+}

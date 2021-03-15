@@ -1,0 +1,66 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:RyanOreCompresed"
+    },
+    "portalParticles": {
+      "value": "VILLAGER_ANGRY"
+    },
+    "portalLuminance": 0.3,
+    "portalSound": {
+      "value": "block.grass.break"
+    },
+    "igniterName": "Robtoloco 3 World Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:ProStuff"
+    },
+    "texture": "robotoloco3s",
+    "portalTexture": "beanblock",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "CUSTOM:ProZone"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "frozen_river"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.CYAN_GLAZED_TERRACOTTA"
+    },
+    "fluidBlock": {
+      "value": "Blocks.SILVER_GLAZED_TERRACOTTA"
+    },
+    "airColor": {
+      "value": -4138753,
+      "frgbvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "fvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "falpha": 1.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true
+  }
+}

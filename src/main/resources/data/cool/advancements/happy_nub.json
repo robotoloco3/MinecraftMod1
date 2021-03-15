@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "cool:nub"
+    },
+    "title": {
+      "translate": "advancements.happy_nub.title"
+    },
+    "description": {
+      "translate": "advancements.happy_nub.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "happy_nub": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "cool:nub_food"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

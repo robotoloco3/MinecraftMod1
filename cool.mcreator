@@ -1,0 +1,353 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Givetonub",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "givetonub",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nubinside",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nubinside"
+    },
+    {
+      "name": "Nub",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nub"
+    },
+    {
+      "name": "NubyStuff",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nuby_stuff"
+    },
+    {
+      "name": "HappyNub",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "happy_nub"
+    },
+    {
+      "name": "ProStuff",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pro_stuff"
+    },
+    {
+      "name": "NubFood",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nub_food"
+    },
+    {
+      "name": "Fakedimond",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fakedimond"
+    },
+    {
+      "name": "ProBod",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pro_bod",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BusinessMen",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "business_men"
+    },
+    {
+      "name": "ProZone",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pro_zone"
+    },
+    {
+      "name": "ProPic",
+      "type": "painting",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pro_pic"
+    },
+    {
+      "name": "Proyish",
+      "type": "overlay",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proyish"
+    },
+    {
+      "name": "ProPlace",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pro_place"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet"
+    },
+    {
+      "name": "Gun",
+      "type": "gun",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun"
+    },
+    {
+      "name": "RyanOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ryan_ore"
+    },
+    {
+      "name": "Tv",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tv"
+    },
+    {
+      "name": "ChangeChannel",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_channel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tvch2",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tvch_2"
+    },
+    {
+      "name": "ChangeChannel2",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "change_channel_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GunRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun_recipe"
+    },
+    {
+      "name": "BigGun",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_gun"
+    },
+    {
+      "name": "GunRepair",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun_repair"
+    },
+    {
+      "name": "RyanOreCompresed",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ryan_ore_compresed"
+    },
+    {
+      "name": "Robtoloco3World",
+      "type": "dimension",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "robtoloco_3_world"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Nubdone",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "gun",
+      "files": [
+        "gunshot2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.cool.pro_bod_boots": "Pro Bod Boots",
+      "entity.cool.business_men": "Business Men",
+      "item.cool.business_men_spawn_egg": "Business Men Spawn Egg",
+      "block.cool.tvch_2": "Tvch 2",
+      "item.cool.nub_food": "Nub Food",
+      "block.cool.nub": "Nub",
+      "block.cool.ryan_ore_compresed": "Ryan Ore Compresed",
+      "item.cool.pro_bod_chestplate": "Pro Bod Body",
+      "item.cool.bullet": "Bullet",
+      "advancements.happy_nub.descr": "The Nub Thanks You",
+      "advancements.happy_nub.title": "Happy Nub",
+      "subtitles.gun": "",
+      "item.cool.gun": "Gun",
+      "itemGroup.tabnuby_stuff": "Nuby Stuff",
+      "itemGroup.tabpro_stuff": "Pro Stuff",
+      "item.cool.pro_bod_helmet": "Pro Bod Helmet",
+      "block.cool.ryan_ore": "Ryan Ore",
+      "item.cool.pro_bod_leggings": "Pro Bod Leggings",
+      "biome.cool.pro_zone": "Pro Zone",
+      "block.cool.tv": "Tv",
+      "item.cool.robtoloco_3_world": "Robtoloco 3 World Portal Igniter"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "cool",
+    "modName": "cool",
+    "version": "1.0.0",
+    "author": "Roland, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.cool",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

@@ -1,0 +1,11 @@
+{
+  "gun": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "cool:gunshot2",
+        "stream": false
+      }
+    ]
+  }
+}

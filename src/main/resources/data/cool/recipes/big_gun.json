@@ -1,0 +1,36 @@
+{
+  "group": "cool",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "cool:ryan_ore"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:oak_log"
+    },
+    "5": {
+      "item": "minecraft:gunpowder"
+    },
+    "7": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "8": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "cool:gun",
+    "count": 1
+  }
+}
